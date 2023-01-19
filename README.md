@@ -1,3 +1,5 @@
+#KABUKAYO
+
 1. Background and purpose of the research
 In recent years, there has been a growing interest in using natural language processing (NLP) technology to analyze the sentiment of posts on social networking services (SNS) and to predict market movements. In Japan, the number of retail traders (individuals who trade stocks without going through a brokerage firm) has been increasing rapidly against the backdrop of the economic recession. According to data from the Financial Services Agency, the number of individual investors in Japan reached a record 10.8 million in 2020, up nearly 50% from the previous year. Many of these people do not have the same knowledge or information access as professional traders. Therefore, we propose a system that predicts the movement of the U.S. stock market using NLP-based sentiment analysis from posts on the social networking platform called reddit. With the benefit of this tool, those who are new to retail trading can make more accessible investment decisions.
 2. System configuration
