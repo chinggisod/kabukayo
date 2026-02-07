@@ -19,7 +19,7 @@ This system uses Natural Language Processing (NLP) technology to analyze sentime
 - Automated Reddit data collection from stock-related subreddits
 - NLP-based sentiment analysis using VADER and RoBERTa models
 - Trading strategy backtesting with configurable parameters
-- Analysis of major stocks: Apple (AAPL), Amazon (AMZN), Meta (FB), Twitter (TWTR)
+- Analysis of major stocks: Apple (AAPL), Amazon (AMZN), Meta (FB/META), Twitter (TWTR)
 
 ## 📁 Project Structure
 
@@ -54,7 +54,7 @@ kabukayo/
 ## 🚀 Installation
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.8+ (3.7 reached end-of-life in June 2023)
 - Jupyter Notebook or JupyterLab
 - Reddit API credentials (for get-post-RAW.py)
 
@@ -70,6 +70,7 @@ cd kabukayo
 ```bash
 pip install praw psaw pandas nltk contractions tensorflow scikit-learn imbalanced-learn seaborn matplotlib wordcloud
 ```
+**Note:** For production use, consider pinning package versions to ensure compatibility.
 
 3. Download NLTK data:
 ```bash
@@ -144,7 +145,7 @@ In order to evaluate the performance of this system, a back-test analysis was co
 The backtesting analysis demonstrated that the sentiment-based trading strategy can outperform passive buy-and-hold strategies when properly configured. Performance varies based on:
 - **Subreddit selection**: Different communities show varying signal quality
 - **Trading day lag**: Optimal lag between sentiment signal and trade execution
-- **Stock selection**: Performance differs across AAPL, AMZN, FB, and TWTR
+- **Stock selection**: Performance differs across AAPL, AMZN, FB/META, and TWTR
 - **Strategy implementation**: Trading rules and position sizing significantly impact returns
 
 ### 4. Summary
